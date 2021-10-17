@@ -22,7 +22,7 @@ public class ExerciseTwo {
                 "  *   * *   *     *    ****",
                 " *     *     *    *    *  *",
                 "*             *  ***   *   *"
-        }; // suggested solution makes me cringe
+        };
         for(String line:initials) {System.out.println(line);}
     }
     private static int rand() {return(int)(Math.random()*6)+1;}
